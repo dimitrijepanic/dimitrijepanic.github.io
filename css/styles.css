@@ -3604,6 +3604,11 @@ textarea.form-control-lg {
   border-top-right-radius: 0;
 }
 
+.navbar-default{
+  border: none;
+  border-radius: 20% !important;
+}
+
 .nav {
   --bs-nav-link-padding-x: 1rem;
   --bs-nav-link-padding-y: 0.5rem;
@@ -11580,20 +11585,22 @@ html {
 
 .profile {
   position: relative;
-  height: 75vw;
-  width: 75vw;
+  height: 26vw !important;
+  width: 27vw !important;
   border-radius: 5vw;
-  margin-top: 5vw;
+  margin-top: 1vw;
   max-height: 40rem;
   max-width: 40rem;
 }
 .profile .profile-img {
-  height: 80vw;
+  height: 25vw !important;
   max-height: 45rem;
   position: absolute;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
+  padding-bottom: 0.04em !important;
+  border-radius: 5%!important;
 }
 .profile .dots-1 {
   position: absolute;
